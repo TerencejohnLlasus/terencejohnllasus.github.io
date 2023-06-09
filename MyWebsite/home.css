@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  h1 {
+font-size: 100px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+  .hero {
+    background-image: url('photo-1539667468225-eebb663053e6.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .features {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .features h2 {
+    margin-bottom: 20px;
+  }
+  
+  .feature {
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    margin: 0 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .feature i {
+    font-size: 36px;
+  }
